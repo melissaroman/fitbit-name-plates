@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Fitbit Name Plates</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/public/assets/fonts" />
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Fitbit Name Plates</h1>
+    </header>
+
+    <main>
+
+      <form>
+        <input type="input" class="form-name-input" id="name-input" placeholder="Enter first name last initial" />
+        <input type="input" class="form-date-input" id="date-input" placeholder="Enter month and year start date (ie: 082117)" />
+      </form>
+
+      <div id="main">
+        <div class="name-plate">
+          <div class="name-plate_header">
+            <div class="name-plate_pin-hole-left"></div>
+            <div class="name-plate_logo">
+              <img src="public/assets/images/fitbit-logo-white.png" />
+            </div>
+            <div class="name-plate_pin-hole-right"></div>
+          </div>
+          <div class="name-plate_body">
+            <span class="name-plate_name" id="name-output"></span>
+            <span class="name-plate_date" id="date-output"></span>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="printPdf('main')">Print</button>
+
+    </main>
+
+    <footer>
+      <p>©Copyright 2017 by Melissa Roman melissa.roman@fitbit.com</p>
+    </footer>
+
+    <script src="make-name-plates.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,113 @@
+body {
+  font-family: "Proxima Nova";
+  margin-left: 2em;
+}
+
+.form-name-input, .form-date-input {
+  font-size: 14px;
+  padding: 4px;
+  width: 30%;
+}
+
+button {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.name-plate {
+  margin: 60px 0;
+  width: 809px;
+  height: 500px;
+  border: 1px #979797 solid;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.name-plate_header {
+  height: 26%;
+  background-color: #3FB7B1;
+  border-radius: 18px 18px 0 0;
+}
+
+.name-plate_pin-hole-left {
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  float: left;
+}
+
+.name-plate_pin-hole-right {
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  float: right;
+}
+
+.name-plate_pin-hole-left-bottom {
+  margin: 37px 10px 10px;;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #D0D0D0;
+  box-shadow: inset 0 0 1px gray;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  float: left;
+}
+
+.name-plate_pin-hole-right-bottom {
+  margin: 37px 10px 10px;;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #D0D0D0;
+  box-shadow: inset 0 0 1px gray;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  float: right;
+}
+
+.name-plate_body {
+  min-height: 60%;
+}
+
+.name-plate_body span {
+  width: 100%;
+  display: inline-block;;
+}
+
+.name-plate_name {
+  padding-top: 7%;
+  font-size: 112px;
+  font-weight: 700;
+  color: #20262E;
+}
+
+.name-plate_date {
+  font-size: 72px;
+  font-weight: 400;
+  color: #76797F;
+}
+
+.name-plate_logo {
+  display: inline;
+}
+
+.name-plate_logo img {
+  width: 350px;
+  padding-top: 20px;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}
